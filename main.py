@@ -15,19 +15,24 @@ nombre = input("ingrese su nombre")
 fulltext = text + nombre
 fulltextv1 = f"{text} {nombre} ..!"
 print(fulltext)
-print(fulltextv1)"""
+print(fulltextv1)
 
 
+print{text (0:4)}
+print{text (9:9)}"""
 
-cadena = "Isaac no ronca así"
-cadena_limpia = remover_caracteres_especiales(cadena)
-es_palindromo = palindromo(cadena_limpia)
-if es_palindromo:
-    print("Es palíndromo")
+
+number_opcion = int(input("ingrese un numero"))
+
+if number_opcion % 2 == 0:
+    print("el numero es par")
+else: 
+    print("el numero es inpar")
+
+
+number_opcion = int(input ("ingrese un numero"))
+
+if number_opcion % 3 == 0:
+    print("el numero es primo")
 else:
-    print("No es palíndromo")
-es_palindromo = palindromo_recursivo(cadena_limpia, 0, len(cadena_limpia) - 1)
-if es_palindromo:
-    print("Con recursividad: es palíndromo")
-else:
-    print("Con recursividad: no es palíndromo")
+    print("el numero no es primo")
