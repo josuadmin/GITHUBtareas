@@ -30,9 +30,14 @@ else:
     print("el numero es inpar")
 
 
-number_opcion = int(input ("ingrese un numero"))
 
-if number_opcion % 3 == 0:
-    print("el numero es primo")
-else:
-    print("el numero no es primo")
+#como hacer lo de numeros primos.
+
+def primo(numero):
+    if numero == 0 o numero == 1 o numero == 4:
+       return falso 
+    for x in range (2, int(numero/2)):
+        if numero % x == 0:
+           return falso
+        return true   
+    
