@@ -1,4 +1,4 @@
-"""nombre = input("ingrese su nombre")
+nombre = input("ingrese su nombre")
 apellido = input("ingrese el apellido")
 edad = input("ingrese su edad")
 
@@ -19,7 +19,7 @@ print(fulltextv1)
 
 
 print{text (0:4)}
-print{text (9:9)}"""
+print{text (9:9)}
 
 
 number_opcion = int(input("ingrese un numero"))
@@ -34,10 +34,10 @@ else:
 #como hacer lo de numeros primos.
 
 def primo(numero):
-    if numero == 0 o numero == 1 o numero == 4:
-       return falso 
+    if numero == 0 or numero == 1 or numero == 4:
+        return false 
     for x in range (2, int(numero/2)):
         if numero % x == 0:
-           return falso
+           return false
         return true   
     
