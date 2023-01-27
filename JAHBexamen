@@ -191,3 +191,25 @@ if (annio % 4 == 0 and annio % 100 != 0) or annio % 400 == 0:
     print("el año:",annio,",es bisiesto")
 else:
     print("el año:",annio,",no es bisiesto")
+
+
+
+#como hacer todo lo relacionado a git y subirlo a la plataforma github.
+
+#primero crear una clave ssh = comando = ssh-keygen -t rsa - 4096
+#luego creamos y damos click derecho en la carpeta creada y abrimos la terminal git bash
+#comando = git init 
+#comando = ls -la 
+#comando = git remote add origin copiamos link del github donde el boton verde
+#comando = git remote -v 
+#comando = git pull origin master 
+#comando = ls o tambien ls - la para verificar
+#comando = git status 
+#comando = git add . 
+#comando = git status
+#comando = git commit -m "empezando con git"
+#comando = git config --global user.email "correo electronico"
+#comando = git config --global user.name "nombre del usuario"
+#comando = git commit -m "empezando con git"
+#comando = git status
+#comando = git push origin master
