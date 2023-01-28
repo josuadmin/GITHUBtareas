@@ -213,3 +213,5 @@ else:
 #comando = git commit -m "empezando con git"
 #comando = git status
 #comando = git push origin master
+
+#para correrr docker "docker run -d -p 80:80 docker/getting-started"
