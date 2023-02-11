@@ -1,0 +1,84 @@
+tuplas
+diccionario
+
+option = []
+
+pasajero = [1,'nombre','direccion','fecha=año/mes/dia']
+
+pasajero = ()
+
+
+# tuplas
+
+option = ('piedra', 'papel', 'tijera');
+
+# metodos propios de las tuplas
+
+print(option.count('piedra'))
+print(option.index('piedra'))
+
+# option[0] = 'bomba' => no se puede realizar 
+optionv1 = list(option)
+optionv1[0] = 'bomba'
+
+print(option[0])
+print(optionv1[0])
+print(type(option))
+
+# listas
+
+lista = [] { append(); pop() ; insert() ; remove()}
+
+tuplas = () { count() ; index()}
+
+diccionario = {} ; #a diferencia de la lista tiene una llave o valor
+productos = {
+    id_py : 1,
+    name : "mantenimiento",
+    precio : 200
+    tool : ['multimetro,'cautin']
+}
+
+
+
+import random
+
+my_randome= ["piedra", "papel", "tijera"]
+computer = random.choice(my_randome).lower()
+useropcion= input ("ingrese piedra papel o tijera: ").lower()
+
+
+if computer == "piedra" and computer =="papel":
+    print("Gano,papel a piedra ")
+elif computer == "papel" and useropcion == "tijera!":
+    print("Gano,tijera a papel ")
+elif computer == "tijera" and useropcion == "piedra":
+    print("Gano,piedra a tijera ")
+if computer =="papel" and useropcion =="piedra":
+    print("perdiste,La computadora gana papel a piedra")
+elif computer == "tijera" and useropcion == "papel":
+    print("perdiste,la computadora gana tijera a papel")
+elif computer == "piedra" and useropcion == "tijera":
+    print("perdiste,computadora gana piedra a tijera")
+elif computer == useropcion:
+    print("empate")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
