@@ -1,4 +1,4 @@
-'''num1 = 3;
+num1 = 3;
 num2 = 4;
 
 res = num1 + num2
@@ -17,7 +17,7 @@ sum();
 def sum(n,v, iva = 0.12):
     print(n+v+iva)
 
-sum(3,4);'''
+sum(3,4);
 
 
 
