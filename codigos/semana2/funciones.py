@@ -36,5 +36,3 @@ def increment(res):
 respuesta1, respuesta2 = increment(res)
 
 print(respuesta2)
-
-
