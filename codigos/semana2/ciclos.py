@@ -1,4 +1,4 @@
-'''#ciclos
+#ciclos
 
 option = ['pasajero', 'rutas', 'viaje', 'trole', 'estacion'];
 pasajero = [
@@ -15,7 +15,7 @@ for elemento in range(1,11):
 
 
 for option in option:
-    print(option)'''
+    print(option)
 
 
 
